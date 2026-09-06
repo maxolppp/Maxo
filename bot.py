@@ -352,7 +352,7 @@ async def start_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await send_join_prompt(update, context, missing)
             return
     await update.message.reply_text(
-        "به ربات فروش کانفیگ 𝗠𝗔𝗫𝗢 خوش آمدید 🌟\nیکی از گزینه‌ها رو انتخاب کنید:",
+        "به ربات فروش کانفیگ 𝗡𝘆𝗿𝗼𝘅 خوش آمدید 🌟\nیکی از گزینه‌ها رو انتخاب کنید:",
         reply_markup=main_menu_kb(user.id)
     )
 
